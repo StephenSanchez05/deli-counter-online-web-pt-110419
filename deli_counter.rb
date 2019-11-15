@@ -26,7 +26,7 @@ def now_serving(serving)
   else
     sentence = "Currently serving "
     ticking = serving.shift
-    sentence << "#{ticking}"
+    sentence << "#{ticking}."
   end
   puts sentence
 end
