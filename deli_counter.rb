@@ -15,10 +15,9 @@ end
 
 def take_a_number(deli, name)
   deli << name
-  deli.each_with_index do |names, index|
-  puts "Welcome, #{names}. You are number #{index+1} in line."
+  puts "Welcome, #{name}. You are number #{deli.length} in line."
 end
-end
+
 
 def now_serving(serving)
   if serving.empty?
