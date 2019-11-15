@@ -24,8 +24,10 @@ def now_serving(serving)
   if serving.empty?
     puts "There is nobody waiting to be served!"
   else
-    sentence = 
+    sentence = "Currently serving "
     ticking = serving.pop
-    
+    sentence << "#{ticking}"
   end
+  puts sentence
+end
 end
