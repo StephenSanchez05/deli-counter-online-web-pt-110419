@@ -30,4 +30,3 @@ def now_serving(serving)
   end
   puts sentence
 end
-end
