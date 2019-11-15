@@ -19,3 +19,11 @@ def take_a_number(deli, name)
   puts "Welcome, #{names}. You are number #{index+1} in line."
 end
 end
+
+def now_serving(serving)
+  if serving.empty?
+    puts "There is nobody waiting to be served!"
+  else
+    puts "hello"
+  end
+end
