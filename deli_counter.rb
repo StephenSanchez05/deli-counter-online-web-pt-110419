@@ -27,6 +27,7 @@ def now_serving(serving)
     sentence = "Currently serving "
     ticking = serving.shift
     sentence << "#{ticking}."
+    serving.shift
   end
   puts sentence
 end
