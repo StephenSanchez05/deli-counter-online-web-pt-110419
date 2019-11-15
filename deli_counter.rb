@@ -25,7 +25,7 @@ def now_serving(serving)
     puts "There is nobody waiting to be served!"
   else
     sentence = "Currently serving "
-    ticking = serving.pop
+    ticking = serving.shift
     sentence << "#{ticking}"
   end
   puts sentence
