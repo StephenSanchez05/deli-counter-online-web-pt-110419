@@ -24,6 +24,6 @@ def now_serving(serving)
   if serving.empty?
     puts "There is nobody waiting to be served!"
   else
-    puts "hello"
+    ticking = 
   end
 end
